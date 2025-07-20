@@ -1,0 +1,240 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.top-intro {
+  background: linear-gradient(
+      to right,
+      rgba(116, 155, 194, 0.85),
+      rgba(70, 130, 169, 0.85)
+    ),
+    url("./images/greatwave.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.95;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.name {
+  font-family: "Sawarabi Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fffbde;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.name-title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #d0e3f0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+#greeting {
+  font-family: "Sawarabi Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2e2e2e;
+}
+
+#greeting-text {
+  color: #708090;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.intro {
+  background: linear-gradient(to right, #dbe9f4, #f0f0f0);
+}
+
+a.text-primary:hover {
+  color: #0d6efd; /* or any hover color */
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+#project-head {
+  font-family: "Sawarabi Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2e2e2e;
+}
+
+.project-text-wrapper {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  padding: 1.5rem;
+  border-radius: 12px;
+  color: #f1f1f1;
+}
+
+.project-text-wrapper:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tindog-icon {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+#tindog-head {
+  font-family: "Sawarabi Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff8e7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.tindog-text {
+  color: #e0e0e0;
+  font-family: "Noto Sans JP", sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+#tindog-link {
+  color: #fff8e7;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.hikari-icon {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+#hikari-head {
+  font-family: "Sawarabi Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff8e7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hikari-text {
+  color: #e0e0e0;
+  font-family: "Noto Sans JP", sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+#hikari-link {
+  color: #fff8e7;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+a.icon-link:hover {
+  color: #fff8e7;
+  text-decoration: underline;
+}
+
+.project-sample {
+  background: url("./images/city-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.95;
+}
+
+.interest-hobby {
+  background: linear-gradient(to right, #dbe9f4, #f0f0f0);
+}
+
+.hobby-img {
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  padding: 0.3rem;
+  border-radius: 12px;
+  color: #f1f1f1;
+}
+.carousel-caption h5 {
+  font-family: "Sawarabi Mincho", serif;
+  font-size: 1.5rem;
+  color: #fff8e7;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-caption p {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #f0f0f0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.contact-me {
+  background: url("./images/temple.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.95;
+}
+
+.contact-head {
+  font-family: "Sawarabi Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #1a1a1a;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.contact-text {
+  color: #e0e0e0;
+  font-family: "Noto Sans JP", sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.contact-text-wrapper {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: 15px;
+}
+
+.feature-icon-small {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-text-wrapper:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.footer-sect {
+  background: linear-gradient(to right, #dbe9f4, #f0f0f0);
+}
+
+.foot-text {
+  font-family: "Sawarabi Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #1a1a1a;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
